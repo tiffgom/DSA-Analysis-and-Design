@@ -8,7 +8,7 @@
 //                          ABCU courses from a csv data file. Advisors have
 //                          the option to load their file of choice, print a
 //                          course list that has been sorted in alphanumerical 
-//							order a course list, and search and (if found) the
+//		            order a course list, and search and (if found) the
 //                          course using its course Id. Additionally, for each
 //                          course found, the prerequisites for each course 
 //                          (if any) will be listed.
@@ -23,7 +23,7 @@ int main() {
 	
 	// Declare variables
 	string searchCourse;			// course name of user input
-	string fileName;				// filen name of user input
+	string fileName;		        // filen name of user input
 	string line;
 	ifstream file;
 	fileName = "";
